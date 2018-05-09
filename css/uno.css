@@ -1088,13 +1088,13 @@ code {
 
 .content-wrapper {
   z-index: 800;
-  width: 68%;
+  width: 70%;
   max-width: 960px;
   margin-left: 32%; }
 
 .content-wrapper__inner {
-  margin: 0 10%;
-  padding: 50px 0; }
+  padding: 50px 10%;
+  }
 
 .footer {
   display: block;
@@ -1200,7 +1200,7 @@ hr {
   background-size: cover; }
 
 .panel-cover--collapsed {
-  width: 32%;
+  width: 30%;
   max-width: 430px; }
 
 .panel-cover--overlay {
@@ -1581,7 +1581,7 @@ input[type="tel"] {
 
   .panel-main__inner {
     display: table-cell;
-    padding: 60px 10%; }
+    padding: 60px 5%; }
 
   .panel-cover__description {
     display: block;
