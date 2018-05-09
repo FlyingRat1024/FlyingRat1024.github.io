@@ -7,7 +7,7 @@
     
 
     <title>
-      Blog 
+      需求分析 | Blog 
     </title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -16,13 +16,17 @@
     
     
 
-    <meta property="og:type" content="website">
-<meta property="og:title" content="Blog">
-<meta property="og:url" content="http://yoursite.com/index.html">
+    <meta name="description" content="角色：①订单接收人员：接受电话订单，将订单信息录入“订单管理系统”生">
+<meta property="og:type" content="article">
+<meta property="og:title" content="需求分析 | Blog">
+<meta property="og:url" content="http://yoursite.com/2018/05/08/需求分析/index.html">
 <meta property="og:site_name" content="Blog">
+<meta property="og:description" content="角色：①订单接收人员：接受电话订单，将订单信息录入“订单管理系统”生">
 <meta property="og:locale" content="default">
+<meta property="og:updated_time" content="2018-05-08T12:07:02.474Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Blog">
+<meta name="twitter:title" content="需求分析 | Blog">
+<meta name="twitter:description" content="角色：①订单接收人员：接受电话订单，将订单信息录入“订单管理系统”生">
     
     
     
@@ -42,8 +46,8 @@
     </span>
 
     
- 
-<header class="panel-cover">
+
+<header class="panel-cover panel-cover--collapsed">
 
 
   <div class="panel-main">
@@ -142,84 +146,51 @@ classes that you can use:
         <div class="content-wrapper__inner entry">
             
 
+<article class="post-container post-container--single">
 
-   <!-- do nothing -->
-
-
-<div class="main-post-list">
-    <ol class="post-list">
+  <header class="post-header">
     
-    
-    <li>
+    <h1 class="post-title">需求分析</h1>
 
-      <h2 class="post-list__post-title post-title">
-        <a href="/2018/05/08/需求分析/" title="link to 需求分析">需求分析</a>
-      </h2>
-
-      <div class="post-list__meta">
-
-        <time datetime="2018-05-08" class="post-list__meta--date date">2018-05-08</time> 
-      </div>
-
-      <div class="excerpt">
-        
-          <p><strong>角色：</strong><br>①订单接收人员：接受电话订单，将订单信息录入“订单管理系统”生<br>
-        
-      </div>
-
-      <hr class="post-list__divider" />
-    </li>
-    
-    <li>
-
-      <h2 class="post-list__post-title post-title">
-        <a href="/2018/05/08/testText/" title="link to testText">testText</a>
-      </h2>
-
-      <div class="post-list__meta">
-
-        <time datetime="2018-05-08" class="post-list__meta--date date">2018-05-08</time> 
-      </div>
-
-      <div class="excerpt">
-        
-      </div>
-
-      <hr class="post-list__divider" />
-    </li>
-    
-    <li>
-
-      <h2 class="post-list__post-title post-title">
-        <a href="/2018/05/08/hello-world/" title="link to Hello World">Hello World</a>
-      </h2>
-
-      <div class="post-list__meta">
-
-        <time datetime="2018-05-08" class="post-list__meta--date date">2018-05-08</time> 
-      </div>
-
-      <div class="excerpt">
-        
-      </div>
-
-      <hr class="post-list__divider" />
-    </li>
-    
-  </ol>
-
-  <hr class="post-list__divider " />
-
-<nav class="pagination" role="navigation">
     
 
-    <span class="pagination__page-number"> 1 / 1</span>
+    <div class="post-meta">
+      <time datetime="2018-05-08" class="post-meta__date date">2018-05-08</time> 
+
+      <span class="post-meta__tags tags">
+
+          
+            <font class="categories">
+            &#8226; 分类:
+            <a class="categories-link" href="/categories/homework/">homework</a>
+            </font>
+          
+
+          
+
+      </span>
+    </div>
     
     
-</nav>
+
+  </header>
+
+  <section id="post-content" class="article-content post">
+    <p><strong>角色：</strong><br>①订单接收人员：接受电话订单，将订单信息录入“订单管理系统”生<br><a id="more"></a><br><strong>成新订单</strong><br>②生产监督人员：收到新订单提醒，根据新订单分解结果生成生产原材料领取单；组织生产<br>③仓库管理人员：接收生产/研发原材料领取单，根据“仓库管理系统”制定出库单/采购单<br>④原料采购人员：接收采购单，购买原材料<br>⑤财务人员：制定商品价格；统计成本费用、收入，计算利润<br>⑥生产运营总监：可以查看全部流程<br>⑦研发人员：根据研发计划生成研发原材料领取单；组织研发</p>
+<p><strong>系统：</strong><br>①人员管理系统（人力资源部门）<br>记录全体职员的个人信息（工号、姓名、性别、年龄、家庭住址、联系方式、职位、入职时间、工资流水）<br>职位的权限<br>②BOM信息管理系统<br>       商品信息管理（商品编号、商品类别、名称、销售价格、原材料组成、生产工序）<br>原材料信息管理（原材料编号、原材料名称、所需原材料数量）<br>【每个商品信息对应其所需的原材料信息】<br>③仓库管理系统<br>成品库存管理（出库记录、入库记录、库存量、报警阈值设置）<br>    材料库存管理功能（出库记录、入库记录、库存量、报警阈值设置）<br>【库存量小于报警阈值时，系统自动发出提醒】<br>④订单管理系统<br>生产订单信息管理（创建日期、产品名称、产品数量、客户姓名、联系方式、地址、付款方式）<br>研发订单信息管理（产品名称、原材料种类、原材料数目、研发成本预算）<br>采购订单管理系统（创建日期、原材料名称、原材料数量、成本）<br>生产销售记录（已完成的订单信息移入此列表）<br>【根据每项订单信息生成采购订单，收到库存管理系统的提醒——库存量小于报警阈值时自动生成采购订单】<br>⑤成本管理系统<br>定期计算人工成本、物料成本、生产成本、收入、利润计算、销售记录</p>
+
+  </section>
+
+  <section class="post-comments">
+
+    <!-- 将评论系统（例如Disqus、多说、友言、畅言等）提供的代码片段粘贴在这里 -->
+    
+</section>
 
 
-</div>
+</article>
+
+
             <footer class="footer">
 
     <span class="footer__copyright">&copy; 2014-2015. | 由<a href="https://hexo.io/">Hexo</a>强力驱动 | 主题<a href="https://github.com/someus/huno">Huno</a></span>
@@ -247,6 +218,18 @@ classes that you can use:
 
 
     
+
+    <script src="/js/awesome-toc.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $.awesome_toc({
+                overlay: true,
+                contentId: "post-content",
+            });
+        });
+    </script>
+
+
     
     
     <!--kill ie6 -->
